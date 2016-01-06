@@ -1,0 +1,22 @@
+# Site settings
+title: "ryanriatno"
+email: ryan@ryanriatno.com
+description: > # this means to ignore newlines until "baseurl:"
+  Ryan Riatno &copy 2015
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ryanriatno.com" # the base hostname & protocol for your site
+twitter_username: ryanriatno
+github_username:  ryanriatno
+
+# Build settings
+markdown: kramdown
+permalink: ":title/"
+highlighter: pygments
+
+# Pagination
+paginate: 10
+paginate_path: "blog/page/:num/"
+
+# Minification
+sass:
+  style: compressed
